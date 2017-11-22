@@ -1,3 +1,4 @@
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <style>
@@ -8,6 +9,30 @@ body, #landing, html {
 
 body {
   background-color: #306bac;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #c9c9c9;
 }
 
 #section-heading {
@@ -22,6 +47,7 @@ body {
 }
 
 
+
 #about {
   background-color: white;
 }
@@ -29,17 +55,13 @@ body {
 .navbar {
   position: fixed;
   top: 0;
-  left: 0;
   opacity: 0.6;
+  left: 0;
   z-index: 9999;
   width: 100%;
   height: 50px;
   background-color: white;
 }
-#icons {
-  font-size: 65px;
-}
-
 
 #landing {
   
@@ -198,10 +220,6 @@ h2, h3 {
     transform: translateY(-25%);
     width: 75%;
   }
-  
-  .fixed-nav-bar {
-    visibility: hidden;
-  }
 
     #name {
     font-size: 20px;
@@ -210,6 +228,8 @@ h2, h3 {
     font-size: 20px;
   }
   }
+
+
 
 
 
@@ -222,32 +242,15 @@ h2, h3 {
       GARETH MILLER
       <h2 id = "title">
       ASPIRING DEVELOPER</h2>
-      <span id="icons">
-        <a class="icon" href="https://www.github.com/gmiller290488" target="_blank" title="Github">
-          <i class="fa fa-github" aria-hidden="true"></i>
-        </a>
-        <a class="icon" href="https://www.codepen.io/CTingCTer" target="_blank" title="CodePen">
-          <i class="fa fa-codepen">
-            
-          </i>
-        </a>
-        <a class="icon" href="https://twitter.com/CTingCTer" target="_blank" title="Twitter">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="icon" id="envelope" href="mailto:gmiller290488@gmail.com" title="Contact">
-          <i class="fa fa-envelope-o"></i></a>
-      </span>    
-      </div>
-      </div>
-     <nav class="navbar navbar-inverse nav-fixed-top sticky" role="navigation">
+    </div>
+ </div>
+     <nav class='navbar navbar-inverse nav-fixed-top sticky' role="navigation">
   <ul class="nav nav-pills menu">
-  <li class="active">
     <li><a href="#landing">Home</a></li>
-  <li><a href="#about">About</a></li>  
-  <li><a href="#portfolio">Projects</a></li>
+    <li><a href="#about">About</a></li>  
+    <li><a href="#projects">Projects</a></li>
     <li><a href="http://gmiller290488.pythonanywhere.com/"  target="_blank">Blog</a></li>
-  
-</ul>
+  </ul>
 </nav>
   <div id = "contain">
   <div id ="about">
@@ -316,14 +319,9 @@ h2, h3 {
            Here we have a Web Application that will allow you to search for articles on Wikipedia or if you're unsure, to take you to a random article.  This project was great for furthing my knowledge of API's, JSON and also how to dynamically create content.
          </div>
     </div>
-      
       </div>
     </div>
-    
-      
     </div>
   </div>
-  
- 
-<script src="my_js.js"></script>
 </body>
+</html>
