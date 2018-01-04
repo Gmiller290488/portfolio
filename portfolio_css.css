@@ -199,6 +199,7 @@ h2, h3 {
   }
   
   #icons {
+    display: none;
     font-size: 40px;
   }
   #bio-text {
