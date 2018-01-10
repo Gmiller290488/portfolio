@@ -189,6 +189,11 @@ h2, h3 {
     font-weight: bold;
 }
 
+#contain-form {
+  width: 100%;
+  margin: auto 0;
+}
+
 #contact-form {
   background: white;
   border-radius: 10px;
@@ -198,9 +203,19 @@ h2, h3 {
   }
  
 form {
-  margin: auto 0;
+  display: inline-block;
+  margin-left: 45%;
+  margin-left: 15%;
+  width: 70%;
 }
 
+#message-input {
+  line-height: 100px;
+}
+
+input {
+  width: 100%;
+}
 
 @media screen and (max-width: 1020px) {
   .container-fluid, body, html {
