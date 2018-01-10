@@ -38,19 +38,21 @@ li a:hover {
 
 #section-heading {
   font-size: 26px;
-    font-weight: 200;
-    margin-top: 40px;
-    padding: 40px;
-    text-align: center;
-    letter-spacing: 8px;
-    opacity: 10;
-    color: #306BAC;
+  font-weight: 200;
+  margin-top: 40px;
+  padding: 40px;
+  text-align: center;
+  letter-spacing: 8px;
+  opacity: 10;
+  color: #306BAC;
 }
 
 
 
 #middlesection {
   background-color: white;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
    
 .navbar {
@@ -117,9 +119,11 @@ a, a:hover, a:active, a:visited {
     font-weight: 200;
     display: block;
 }
+
 #contain {
   position: absolute;
 }
+
 #bio {
   height:auto;
   text-align:center;
@@ -148,14 +152,13 @@ a, a:hover, a:active, a:visited {
 }
 
 #projects {
-  
   text-align: center;
-    width: 90%;
-    border-top: #306bac solid 2px;
-    height: auto;
+  width: 90%;
+  border-top: #306bac solid 2px;
+  height: auto;
   margin: 18px auto 0;
-  
   }
+
 #projchat {
   font-size: 18px;
   margin: 10px auto 0;
@@ -189,6 +192,10 @@ h2, h3 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
+}
+
+#bottomsection {
+  padding-top: 30px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -230,4 +237,5 @@ h2, h3 {
     #title {
     font-size: 20px;
   }
+
   }
