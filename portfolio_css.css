@@ -44,10 +44,15 @@ li a:hover {
   text-align: center;
   letter-spacing: 8px;
   opacity: 10;
+}
+
+.blue {
   color: #306BAC;
 }
 
-
+.white {
+  color: white;
+}
 
 #middlesection {
   background-color: white;
@@ -141,16 +146,6 @@ a, a:hover, a:active, a:visited {
   padding-bottom:10px;
 }
 
-#container-contact {
-  padding-top: 20px;
-  width: 90%;
-  margin: 18px auto 0;
-}
-
-#contactform {
-  border-top: #306bac solid 2px;
-}
-
 #projects {
   text-align: center;
   width: 90%;
@@ -194,9 +189,18 @@ h2, h3 {
     font-weight: bold;
 }
 
-#bottomsection {
-  padding-top: 30px;
+#contact-form {
+  background: white;
+  border-radius: 10px;
+  margin: 44px auto 0;
+  width: 72%;
+  height: 100%;
+  }
+ 
+form {
+  margin: auto 0;
 }
+
 
 @media screen and (max-width: 1020px) {
   .container-fluid, body, html {
