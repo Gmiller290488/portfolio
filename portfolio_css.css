@@ -54,6 +54,16 @@ li a:hover {
   color: white;
 }
 
+#projects div:hover {
+  background-color: #306bac;
+  opacity: 0.9;
+  box-shadow: 4px 2px 4px;
+}
+
+#projects div:hover a, #projchat {
+  color: white;
+}
+
 #middlesection {
   background-color: white;
   margin-bottom: 30px;
@@ -211,6 +221,10 @@ form {
 
 #message-input {
   line-height: 100px;
+}
+
+#bottomsection {
+  margin-bottom: 30px;
 }
 
 input {
