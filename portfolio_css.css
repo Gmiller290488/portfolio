@@ -85,11 +85,13 @@ a, a:hover, a:active, a:visited {
     text-decoration:none !important;
 }
 
+.fa {
+  color: white;
+}
 
 .fa:hover {
     color: black;
 }
-
 
 #landing {
   background-color: #306bac;
