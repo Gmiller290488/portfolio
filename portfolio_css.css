@@ -241,6 +241,7 @@ input {
 
   .navigation {
     justify-content: space-around;
+    position: absolute;
   }
 
   .container-fluid, body, html {
