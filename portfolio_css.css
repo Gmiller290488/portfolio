@@ -203,36 +203,58 @@ h2, h3 {
     font-weight: bold;
 }
 
-#contain-form {
-  width: 100%;
-  margin: auto 0;
+#bottomsection {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 #contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: white;
   border-radius: 10px;
-  margin: 44px auto 0;
+  margin: auto 0;
   width: 72%;
   height: 100%;
   }
  
 form {
-  display: inline-block;
-  margin-left: 45%;
-  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 70%;
+  padding-left: 30%;
+  margin: auto 0;
 }
 
 #message-input {
   line-height: 100px;
 }
 
-#bottomsection {
+input[type=submit] {
   margin-bottom: 30px;
 }
 
-input {
+label {
+  color: #406bac;
+  text-align: center;
   width: 100%;
+}
+
+input[type=text], input[type=submit] {
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #406bac;
+    border-radius: 5px;
+    background: white;
+    color: #406bac;
+}
+
+input[type=submit]:hover {
+  background: #406bac;
+  color: white;
 }
 
 @media screen and (max-width: 1020px) {
