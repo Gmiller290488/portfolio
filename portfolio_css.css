@@ -64,7 +64,12 @@ body {
   box-shadow: 4px 2px 4px;
 }
 
-#projects div:hover a, p {
+#projects div:hover a{
+  color: white;
+}
+
+
+#projects div:hover p{
   color: white;
 }
 
@@ -174,7 +179,7 @@ a, a:hover, a:active, a:visited {
   margin: 44px auto 0;
 }
 
-.projbox a {
+.projbox a, p {
   color: #406bac;
 }
 
