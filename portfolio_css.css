@@ -240,6 +240,10 @@ input {
     transform: translateY(25%);
   }
 
+  #home {
+    display: none;
+  }
+
   #icons {
     font-size: 36px;
   }
@@ -247,6 +251,10 @@ input {
   .navigation {
     justify-content: space-around;
     position: absolute;
+  }
+
+  .navigation a {
+    padding: 0;
   }
 
   .container-fluid, body, html {
