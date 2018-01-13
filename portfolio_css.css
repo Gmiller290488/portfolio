@@ -177,6 +177,8 @@ a, a:hover, a:active, a:visited {
   height: auto;
   border-radius:10px;
   margin: 44px auto 0;
+  padding-top:30px;
+  padding-bottom: 20px;
 }
 
 .projbox a, p {
@@ -299,12 +301,15 @@ input[type=submit]:hover {
     color: #406bac;
     padding: 5px;
   }
+
   .projbox {
   width: 95%;
-  margin: 1px auto 0;
+  margin: 10px auto 0;
   border: #306bac solid 1px;
   height: auto;
   border-radius:10px;
+  padding-top:30px;
+  padding-bottom: 20px;
   }
   
   #landing-text {
