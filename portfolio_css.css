@@ -1,4 +1,3 @@
-
 body, html {
   height: 100%;
   width: 100%;
@@ -28,6 +27,11 @@ body, html {
 
 .navigation a:hover {
   background: white;
+}
+
+.active {
+  background: white;
+  border-top: thick solid #406bac;
 }
 
 body {
@@ -91,7 +95,7 @@ a, a:hover, a:active, a:visited {
     color: black;
 }
 
-#landing {
+#landing{
   height: 100%;
   width: 100%;
   background-color: #306bac;
@@ -263,10 +267,6 @@ input[type=submit]:hover {
 @media screen and (max-width: 1020px) {
   #landing {
     transform: translateY(25%);
-  }
-
-  #home {
-    display: none;
   }
 
   #icons {
