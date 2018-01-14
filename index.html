@@ -4,17 +4,20 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="portfolio_css.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="portfolio_js.js"></script>
 </head>
 <body>
-
-<ul class="navigation">
-  <li id="home"><a href="#landing">Home</a></li>
-  <li><a href="#about">About</a></li>  
-  <li><a href="#projects">Projects</a></li>
-  <li><a href="#contact-form">Contact</a></li>
-  <li><a href="http://gmiller290488.pythonanywhere.com/"  target="_blank">Blog</a></li>
-</ul>
-  <div id = "landing">
+<nav id="mainNav">
+   <ul class="navigation">
+     <li><a href="#landing" id="home" class="active nav-link">Home</a></li>
+     <li><a href="#about" class="nav-link">About</a></li>  
+     <li><a href="#projects" class="nav-link">Projects</a></li>
+     <li><a href="#contact-form" class="nav-link">Contact</a></li>
+     <li><a href="http://gmiller290488.pythonanywhere.com/" class="nav-link" target="_blank">Blog</a></li>
+   </ul>
+</nav>
+  <div id = "landing" class="navdiv">
     <div id = "landing-text">
       <h1 id = "name"></h1>
       GARETH MILLER
@@ -35,7 +38,7 @@
  </div>
   <div id = "contain">
    <div id = "middlesection">
-    <div id ="about">
+    <div id ="about" class="navdiv">
     <h2 id = "section-heading" class="blue"> ABOUT</H2>
     <div id = "bio">
       <p id= "bio-text" class="blue">
@@ -45,7 +48,7 @@
   </div> <!-- about --> 
   
     <div id="container-fluid">
-     <div id = "projects">
+     <div id = "projects" class="navdiv">
       <h2 id = "section-heading" class="blue">PROJECTS</h2>
        <div class="projbox">
          <h3><a href="https://codepen.io/CTingCTer/full/oBXOdo/">Random Quote App</a></h3>
@@ -82,7 +85,7 @@
     </div> <!-- middlesection -->
 
     <div id = "bottomsection">
-      <div id = "contact-form">
+      <div id = "contact-form" class="navdiv">
        <h2 id = "section-heading" class="blue">Contact me</h2>
        <form action="https://formspree.io/gmiller290488@gmail.com" method="POST">
          <div class = "input-field">
