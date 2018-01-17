@@ -3,6 +3,10 @@ body, html {
   width: 100%;
 }
 
+#about {
+  padding-top: 30px;
+}
+
 .navigation {
   z-index: 1;
   list-style: none;
@@ -273,21 +277,16 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 1020px) {
+  #mainNav {
+    display: none;
+  }
+
   #landing {
     transform: translateY(25%);
   }
 
   #icons {
     font-size: 36px;
-  }
-
-  .navigation {
-    justify-content: space-around;
-    position: absolute;
-  }
-
-  .navigation a {
-    padding: 0;
   }
 
   .container-fluid, body, html {
