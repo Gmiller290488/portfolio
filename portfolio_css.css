@@ -65,6 +65,8 @@ body {
 #about {
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 #projects div:hover {
