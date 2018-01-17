@@ -30,6 +30,7 @@ body, html {
 }
 
 .navigation a:hover {
+  transition: all 0.7s ease-in-out;
   background: white;
 }
 
@@ -48,7 +49,8 @@ body {
 }
 
 .fa:hover {
-    color: black;
+  color: black;
+  transition: all 0.7s ease-in-out;
 }
 
 #section-heading {
@@ -73,15 +75,18 @@ body {
   background-color: #306bac;
   opacity: 0.9;
   box-shadow: 4px 2px 4px;
+  transition: all 0.7s ease-in-out;
 }
 
 #projects div:hover a{
   color: white;
+  transition: all 0.7s ease-in-out;
 }
 
 
 #projects div:hover p{
   color: white;
+  transition: all 0.7s ease-in-out;
 }
 
 #middlesection {
@@ -99,7 +104,8 @@ a, a:hover, a:active, a:visited {
 }
 
 .fa:hover {
-    color: black;
+  color: black;
+  transition: all 0.7s ease-in-out; 
 }
 
 #landing{
@@ -274,6 +280,7 @@ input[type=text], input[type=submit] {
 input[type=submit]:hover {
   background: #406bac;
   color: white;
+  transition: all 0.7s ease-in-out; 
 }
 
 @media screen and (max-width: 1020px) {
