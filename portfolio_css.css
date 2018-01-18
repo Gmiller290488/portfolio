@@ -40,11 +40,17 @@ h2, h3 {
   color: white;
 }
 
+#mainNav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
 .navigation {
   z-index: 1;
   list-style: none;
   position: fixed;
-  width: 100%;
+  width: auto;
   background-color: lightgray;
   display: -webkit-box;
   display: -moz-box;
@@ -53,6 +59,8 @@ h2, h3 {
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: flex-end;
+  border-radius: 20px 0 0 0;
+  padding-left: 0;
 }
 
 .navigation a {
@@ -60,11 +68,13 @@ h2, h3 {
   display: block;
   padding: 1em; 
   text-decoration: none;
+  border-radius: 10px 0 0 0;
 }
 
 .navigation a:hover {
   transition: all 0.7s ease-in-out;
   background: white;
+  border-top: thick solid #406bac;
 }
 
 .active {
