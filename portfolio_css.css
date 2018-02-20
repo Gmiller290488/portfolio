@@ -138,7 +138,7 @@ h2, h3 {
     display: block;
 }
 
-#section-heading {
+.section-heading {
   font-size: 26px;
   font-weight: 200;
   margin-top: 40px;
